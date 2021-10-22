@@ -1,5 +1,4 @@
 const linksSocialMedia = {
-    nome:'Bruno Quintiliano',
     github: 'bquintiliano',
     youtube:'',
     facebook: '',
@@ -13,3 +12,17 @@ function changeSocialMediaLinks(){
          li.children[0].href = `https://${social}.com/${linksSocialMedia[social]}`
     }
 }
+
+function getGitHubProfileInfos() {
+    const url = `https://api.github.com/users/${linksSocialMedia.github}`
+
+    fetch(url)
+        .then(response => response.json())
+        .then(data => {
+            _name.textContent = data.name
+            _userGitHub.textContent = data.login
+            userImage.src = data.avatar_url
+        })
+}
+
+getGitHubProfileInfos()
