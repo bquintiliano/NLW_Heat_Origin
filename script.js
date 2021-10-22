@@ -2,8 +2,8 @@ const linksSocialMedia = {
     github: 'bquintiliano',
     youtube:'',
     facebook: '',
-    instagram: 'bquintiliano',
-    twitter: ''
+    instagram: 'bquintiliano2',
+    twitter: 'bquintiliano2	'
     }
 
 function changeSocialMediaLinks(){
