@@ -2,7 +2,7 @@ const linksSocialMedia = {
     github: 'bquintiliano',
     youtube:'',
     facebook: '',
-    instagram: 'bquintiliano2',
+    instagram: 'bquintiliano',
     twitter: ''
     }
 
@@ -25,4 +25,5 @@ function getGitHubProfileInfos() {
         })
 }
 
+changeSocialMediaLinks()
 getGitHubProfileInfos()
