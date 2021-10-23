@@ -22,6 +22,7 @@ main{
     width: 100vw;
     min-height: 812px;
     height: 100vh;
+
 }
 
 .container {
@@ -80,4 +81,17 @@ ul{
     display: flex;
     gap: 0.5rem;
     justify-content: center;
+}
+/*
+@media (min-width: 720px) {
+	estilos versão tablet 
+}
+*/
+
+@media (min-width: 960px) {
+	main{background: url(images/background.svg) no-repeat center/cover;
+        width: 375px;
+        height: 12px;
+        
+    }
 }
